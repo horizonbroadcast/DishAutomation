@@ -22,22 +22,7 @@ public class WMorePage {
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Skip']")
 	public WebElement skip;
 	
-	//First element of Webepisode home page
-	@AndroidFindBy(xpath="//android.widget.TextView[@text='E1 | Baal baal bache | Ep 1']")
-	public WebElement webEpisode ;
 	
-	//Live channel Titel object location
-	@AndroidFindBy(xpath="//android.widget.TextView[@text='Live Channels']")
-	public WebElement liveRail;
-	
-	//Live channel show all
-	@AndroidFindBy(xpath="//android.widget.TextView=[@text='Show All']")
-	public WebElement liveShowall;
-	
-	// Live channel show all page   android.widget.ImageView
-	
-	@AndroidFindBy(id="com.androidsample.generalstore:id/nameField")
-	public WebElement nameField;
 	
 	}
 	
